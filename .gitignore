@@ -1,0 +1,9 @@
+#Files to be ignored. Replace white space with a *. For directories add a "/" to the end.
+
+.idea/
+.nosync
+dblp.dtd
+dblp.xml
+.lock
+*.config
+
