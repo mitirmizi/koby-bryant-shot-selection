@@ -29,4 +29,25 @@ Look into models regularized linear regression.
 
 - Ask Prof Question) If this the distribution of a column (shot_distance)
   , can we normalize it to improve the results of linear regression on it?
+- How do outlier detection on categorical data
 
+
+### EDA on Columns Done: (22/22)
+    game_event_id
+    game_id
+    lat, lon, loc_x, loc_y
+    minutes_remaining, seconds_remaining - 8
+    shot_distance
+    period 
+    playoffs
+    season
+    matchup
+    shot_type
+    shot_zone_area
+    shot_zone_basic
+    shot_zone_range
+    combined_shot_type - 18
+    action_type
+    opponent
+    game_date
+    shot_made_flag
