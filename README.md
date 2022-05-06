@@ -10,13 +10,28 @@ the same team in the next season.  (Suns or the clippers) Divide the suns's game
 
 
 ### Things to discuss
+Do we need "game_event_id"? maybe it is useful maybe not.
 
+- 
 
 ### References
 Link to dataset: https://www.kaggle.com/competitions/kobe-bryant-shot-selection/overview
 
 
 ### ToDos
+- Move "removing redundant columns section to notebook 2"
+- p Analysis and remove redundant rows.
+
+- Ask Prof: 
+- Two styles of train/test split
+1- Train: S1-regular, Test: S1-playoff. If we average shots made for S1-regular and then train
+  and test on testset would it be okay. Techinically there is data leakage in training data
+  but not in the test data. We'll be using season average from S1-regular in test rows. 
+2- if we take MV of past 5 games, would it be a problem in regular season trining data. 
+  if we do that, should we do the same for the testing data? in real life we would know data of 
+  all the games before 
+- Does keeping "date" column makes sense? what effect does dropping have if any. Given no 2 games 
+  will have same date.
 
 - Ask Prof Question) If this the distribution of a column (shot_distance)
   , can we normalize it to improve the results of linear regression on it? (done)
