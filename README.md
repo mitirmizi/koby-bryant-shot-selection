@@ -19,6 +19,7 @@ src/
 |-- feature_engineering.py
 (In `feature_engineering.py` we are mainting copy of some funtions from the `2-feature-engineering.ipynb` )
 ├── 4-models.ipynb
+|-- 5-random-forrest.ipynb
 ├── ml03-linear-regression.ipynb
 ├── modeling_prep.ipynb
 └── shots_made_and_missed.png
